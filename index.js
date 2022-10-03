@@ -365,6 +365,7 @@ function buttonPromises(buttons) {
 
 
 function initialDeal() {
+    chipCount -= totalBet
     playerHand.push(deck.shift())
     dealerHand.push(deck.shift())
     playerHand.push(deck.shift())
